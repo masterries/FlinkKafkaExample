@@ -1,0 +1,19 @@
+{
+  "metadata" : {
+    "schema.3.data-type" : "BIGINT",
+    "connector" : "kafka: lab07_kafka",
+    "schema.2.data-type" : "INT",
+    "schema.3.name" : "timestamp",
+    "schema.0.data-type" : "VARCHAR(2147483647)",
+    "schema.2.name" : "val",
+    "format" : "json",
+    "topic" : "sensor_readings",
+    "schema.1.name" : "name",
+    "scan.startup.mode" : "earliest-offset",
+    "schema.0.name" : "unit",
+    "schema.1.data-type" : "VARCHAR(2147483647)"
+  },
+  "type" : "ssb",
+  "table_name" : "sensor_readings",
+  "transform_code_b64_encoded" : false
+}

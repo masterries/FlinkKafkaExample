@@ -1,0 +1,19 @@
+{
+  "metadata" : {
+    "schema.3.data-type" : "BIGINT",
+    "connector" : "kafka: lab07_kafka",
+    "schema.2.data-type" : "VARCHAR(2147483647)",
+    "schema.3.name" : "counter",
+    "schema.0.data-type" : "TIMESTAMP(3)",
+    "schema.2.name" : "name",
+    "format" : "json",
+    "topic" : "sensor_readings_counter",
+    "schema.1.name" : "window_end",
+    "scan.startup.mode" : "earliest-offset",
+    "schema.0.name" : "window_start",
+    "schema.1.data-type" : "TIMESTAMP(3)"
+  },
+  "type" : "ssb",
+  "table_name" : "lab07_kafka_sensor_reading_counter",
+  "transform_code_b64_encoded" : false
+}

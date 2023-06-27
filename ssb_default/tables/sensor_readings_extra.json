@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "schema.0.data-type" : "TIMESTAMP(3)",
+    "schema.2.name" : "name",
+    "format" : "json",
+    "schema.1.name" : "window_end",
+    "scan.startup.mode" : "earliest-offset",
+    "schema.4.name" : "max_val",
+    "schema.1.data-type" : "TIMESTAMP(3)",
+    "schema.3.data-type" : "INT",
+    "connector" : "kafka: lab07_kafka",
+    "schema.2.data-type" : "VARCHAR(2147483647)",
+    "schema.3.name" : "min_val",
+    "topic" : "sensor_readings_extra",
+    "schema.4.data-type" : "INT",
+    "schema.0.name" : "window_start"
+  },
+  "type" : "ssb",
+  "table_name" : "sensor_readings_extra",
+  "transform_code_b64_encoded" : false
+}

@@ -1,0 +1,19 @@
+{
+  "metadata" : {
+    "schema.3.data-type" : "TIMESTAMP(3)",
+    "connector" : "kafka: lab07_kafka",
+    "schema.2.data-type" : "TIMESTAMP(3)",
+    "schema.3.name" : "window_end",
+    "schema.0.data-type" : "VARCHAR(2147483647)",
+    "schema.2.name" : "window_start",
+    "format" : "json",
+    "topic" : "sensor_readings",
+    "schema.1.name" : "average_val",
+    "scan.startup.mode" : "earliest-offset",
+    "schema.0.name" : "device",
+    "schema.1.data-type" : "DOUBLE"
+  },
+  "type" : "ssb",
+  "table_name" : "sensor_aggregations",
+  "transform_code_b64_encoded" : false
+}
