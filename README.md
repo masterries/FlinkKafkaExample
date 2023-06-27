@@ -39,6 +39,9 @@ GROUP BY
 ```
 
 
+Durschnittliche Werte im Kafka Topic
+![alt text](avg.png "Title")
+
 ## Schritt 3: Erstellen der Tabelle und des Topics für zusätzliche Statistiken
 Als nächstes haben wir eine weitere Tabelle und ein weiteres Kafka-Topic für zusätzliche Statistiken erstellt:
 
@@ -73,5 +76,13 @@ GROUP BY
     name;
 ```
 Diese Abfrage berechnet den minimalen und maximalen Messwert für jedes Gerät und jedes Zeitfenster und fügt die Ergebnisse in die `sensor_readings_extra` Tabelle ein. Dabei werden die Ergebnisse auch an das Kafka-Topic sensor_readings_extra gesendet.
+Hier ein Auschnitt des topics: 
+![alt text](minmax.png "Title")
+
+## Übersicht der Jobs
+![alt text](flinkDash.png "Title")
+
+
+
 
 
